@@ -14,6 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Concert::factory()->count(50)->create();
+        Concert::factory()->count(90000)->create();
     }
 }
